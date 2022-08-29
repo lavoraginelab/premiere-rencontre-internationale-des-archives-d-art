@@ -1,0 +1,140 @@
+--- # ------------------------------------------------------------------------------
+
+# ==============================================================================
+# Publication.yml
+# ------------------------------------------------------------------------------
+#
+# This file houses the bibliographic info and general metadata for your digital
+# publication.
+
+# ------------------------------------------------------------------------------
+# Title & Description
+title: Première Rencontre Internationale des Archives d´Art
+subtitle: 
+reading_line:
+short_title:
+
+description:
+  one_line:
+  full: >-
+    Les 28 et 29 avril derniers (2022), nous avons eu l'honneur, depuis la Faculté des Arts de l'Université Catholique (Santiago, Chili), et grâce au soutien de la Commission du Programme des Archives de Littérature et d'Arts du Conseil International des Archives, l'ICA, de réaliser la Première Rencontre Internationale des Archives d´Art en accès libre.
+    
+    Afin de créer un réseau d´archives d´art provenant d´Amérique Latine, au sein duquel partager nos expériences et réfléchir aux pratiques documentaires caractéristiques des archives d´arts, nous avons invité des Institutions et des Chercheurs se consacrant à la conservation de biens patrimoniaux, de fonds et de collections nationales et internationales.
+
+
+# ------------------------------------------------------------------------------
+# Publication Details
+# ------------------------------------------------------------------------------
+
+pub_date: 2022-08-01 # YYYY-MM-DD
+language: fr
+pub_type: book # book | journal-periodical | other
+
+identifier:
+  isbn:
+  url:
+
+publisher:
+  - name: Facultad de Artes, Pontificia Universidad Católica de Chile
+    location: Santiago de Chile
+    url:
+    logo: logo.png
+
+# ------------------------------------------------------------------------------
+# Contributors
+# ------------------------------------------------------------------------------
+
+contributor_as_it_appears: Yaminel Bernal Astorga, Luis Miguel García Velázquez, María Rodríguez Jaime, María José Lemaître, Isabel Cáceres, Natalia Efron, Eugenia Sik, Paulina Bravo, Paola Letelier, Jeannette Garcés, Isidora Neira, Sol Henaro, Isabel García Pérez de Arce, Patrizio Gecele Muñoz.<br /><i> Presentación de Alejandra Wolff</i>
+
+contributor: 
+  - id: main
+    type: primary
+    first_name: Alejandra
+    last_name: Wolff
+    title: 
+    role: editor
+    affiliation: 
+
+# ------------------------------------------------------------------------------
+# Copright & License
+# ------------------------------------------------------------------------------
+
+copyright: © 2022, Facultad de Artes de l Pontificia Universidad Católica de Chile
+
+license:
+  name: Creative Commons Attribution 4.0 International License
+  abbreviation: CC BY
+  url: https://creativecommons.org/licenses/by/4.0/
+  scope: full # full | text-only | some-exceptions
+
+# ------------------------------------------------------------------------------
+# Formats, Resources & Links
+# ------------------------------------------------------------------------------
+
+resource_link:
+  - type: other-format
+    name: PDF
+    media_type: application/pdf
+    link_relation: alternate
+    url: /downloads/output.pdf
+  - type: other-format
+    name: EPUB
+    media_type: application/epub+zip
+    link_relation: alternate
+    url: /downloads/output.epub
+  - type: other-format
+    name: Kindle/MOBI
+    media_type: vnd.amazon.mobi8-ebook
+    link_relation: alternate
+    url: /downloads/output.mobi
+  - type: footer-link
+    name: About
+    link_relation: about
+    url: /about/
+  - type: footer-link
+    name: Privacy Policy
+    link_relation: privacy-policy
+    url:
+  - type: footer-link
+    name: Terms of Use
+    link_relation: terms-of-service
+    url:
+
+# ------------------------------------------------------------------------------
+# Subjects
+# ------------------------------------------------------------------------------
+
+subject:
+  - type: bisac
+    name: PHOTOGRAPHY / Subjects & Themes / Historical
+    identifer: PHO023100
+  - type: getty
+    name: Dorothea Lange
+    identifier: "https://vocab.getty.edu/ulan/500007674"
+  - type: keyword
+    name: photography
+  - type: getty
+    name: Walker Evans
+    identifier: "https://vocab.getty.edu/ulan/500012076"
+  - type: getty
+    name: black-and-white photography
+    identifier: "https://vocab.getty.edu/aat/300162056"
+  - type: getty
+    name: despression (economic concept)
+    identifier: "https://vocab.getty.edu/aat/300410245"
+
+# ------------------------------------------------------------------------------
+# Revision History
+# ------------------------------------------------------------------------------
+
+revision_history:
+  - date:
+    summary:
+
+repository_url:
+
+# ------------------------------------------------------------------------------
+# Promo Image
+# ------------------------------------------------------------------------------
+
+promo_image: cover.jpg
